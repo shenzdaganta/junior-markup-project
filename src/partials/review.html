@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer's Review</title>
+</head>
+
+<body>
+    <div class="customers-review-modal">
+        <button type="button" class="review-close-btn" data-modal-close>
+            <svg class="review-x-button">
+                <use href="./images/icons.svg#x-button"></use>
+            </svg>
+        </button>
+        <h2 class="review-message">LEAVE A REVIEW ABOUT <br> OUR CHOCOLATE</h2>
+        <form class="customers-review-form">
+            <label for="name" class="-review-label">
+                <span class="review-input-label">Name</span>
+                <input type="text" class="review-input" />
+            </label>
+        </form>
+        <form class="customers-review-form">
+            <label for="email" class="review-label">
+                <span class="review-input-label">Email</span>
+                <input type="email" class="review-input" />
+            </label>
+        </form>
+        <form class="customers-review-form">
+            <label for="phone" class="review-label">
+                <span class="review-input-label">Phone</span>
+                <input type="number" class="review-input" />
+                <svg class="review-icon">
+                    <use href="./images/icons.svg#review-flag"></use>
+                </svg>
+            </label>
+        </form>
+        <form class="customers-review-form">
+            <label for="comment" class="review-label">
+                <span class="review-input-label"></span>
+                <textarea class="text-comment-box" placeholder="Enter text"></textarea>
+            </label>
+        </form>
+</body>
+
+</html>
