@@ -16,7 +16,36 @@
         </div>
         <div class="top-seller-lower">
             <p class="top-seller-lowertext">Crazy enough chocolate originates from a bean just like the coffee bean called Cacao. Cacao has been around for thousands of years and was first discovered by the Native American tribe called the Mayans.</p>
-            <button type="button" class="btn-seller-text">Buy now</button>
+            <button type="button" class="btn-seller-text" data-modal-open>Buy now</button> 
+                <!-- MODAL -->
+                <div class="top-seller-backdrop is-hidden" data-modal>
+                    <div class="modal">
+                        <button type="button" class="modal-close-btn" data-modal-close>
+                            <svg width="28" height="28">
+                                <use href="./images/icons.svg#close"></use>
+                            </svg>
+                        </button>
+                        <h2 class="ts-buy-now"><span class="ts-buy">BUY</span> NOW</h2>
+                        
+                        <form class="buy-form">
+                        <ul class="ts-buynow-list">    
+                            <li class="ts-chocolate">
+                                <img src="./images/chocolate-white.png" alt="Chocolate White"/>
+                                <button type="radio" class="ts-chocolate-btn">100 g</button>
+                            </li>
+                            <li class="ts-chocolate">
+                                <img src="./images/chocolate-bonbon-milk.png" alt="Chocolate Milk"/>
+                                <button type="radio" class="ts-chocolate-btn">200 g</button>
+                            </li>
+                            <li class="ts-chocolate">
+                                <img src="./images/chocolate-bar-dark.png" alt="Chocolate Dark"/>
+                                <button type="radio" class="ts-chocolate-btn">300 g</button>
+                            </li>
+                        </ul>
+                        </form>
+                    </div>
+                </div>
         </div>
     </div>
 </Section>
+<script type="text/javascript" src="./js/topseller-modal.js"></script>
