@@ -1,0 +1,19 @@
+.footer {
+  color: rebeccapurple;
+  border: 1px solid red;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 72px 156px;
+
+  height: 250px;
+  border: 3px solid red;
+
+  .wrapper {
+    border: 3px solid yellowgreen;
+  }
+}
