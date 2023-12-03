@@ -1,0 +1,105 @@
+.subscribe {
+    background-image: url('../images/Subcribe.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    width: 1200px;
+    height: 370px;
+    top: 4414px;
+}
+
+.blocks {
+    /*background-color: violet;*/
+    color: #FFFFFF;
+    /*width: Hug (467px);
+    height: Hug (226px);
+    top: 72px;
+    left: 366px;
+    gap: 24px;
+    padding: 72px, 367px, 72px, 366px;*/
+    width: Hug (467px);
+    height: Hug (226px);
+    padding-top: 50px;
+    padding-bottom: 72px;
+    gap: 24px;
+}
+
+.text1 {
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: -0.03em;
+    gap: 28px;
+}
+
+.text2 {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: -0.02em;
+    height: 72px;
+    padding-bottom: 5px;
+}
+
+.blocks-button {
+    width: Hug (172px);
+    height: Hug (50px);
+    padding: 14px 40px 14px 40px;
+    border-radius: 100px;
+    gap: 14px;
+    background-color: #FD9222;
+
+.text {
+    /*width: 120px;
+    height: 30px;*/
+    font-family: Montserrat;
+    font-weight: 600;
+    line-height: 22px;
+    font-size: 15px;
+    color: white;
+}
+
+/*modal*/
+
+.blocks-subscribe {
+    width: Hug (458px);
+    height: Hug (136px);
+    top: 236px;
+    left: 40px;
+    gap: 28px;
+}
+
+.blocks-input {
+    border: 2px solid white;
+    background: none;
+    border-radius: 30px;
+    padding: 14px 24px 14px 24px;
+    gap: 40px;
+    Width: Fixed (313px);
+    Height: Fixed (52px);
+}
+
+.blocks-input:placeholder-shown {
+    color: white;
+}
+
+.blocks-subscribe2 {
+    display: flex;
+}
+
+.blocks-input-button {
+    width: Hug (172px);
+    height: Hug (50px);
+    padding: 14px 40px 14px 40px;
+    border-radius: 100px;
+    gap: 14px;
+    background-color: #FD9222; 
+    color: #FFFFFF;
+}
+
+.blocks-text span {
+    color: #FD9222;
+}
