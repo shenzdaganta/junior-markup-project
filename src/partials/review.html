@@ -5,46 +5,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Customer's Review</title>
-    <link rel="stylesheet" href="./sass/_review.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <div class="customers-review-modal">
-        <!-- <button type="button" class="review-close-btn" data-modal-close>
-            <svg class="review-x-button">
-                <use href="./images/icons.svg#close"></use>
-            </svg>
-        </button> -->
-        <h4><a class="header-logo" href="webstudio"><span class="logo">WEB</span><span class="studio-navy">STUDIO</span></a>
-        </h4>
-        <h2 class="review-message"><span class="review">LEAVE A REVIEW ABOUT</span><br><span class="chocolate">OUR CHOCOLATE</span></h2>
-        <form class="customers-review-form">
-            <label for="name" class="-review-label">
-                <span class="review-input-label">Name</span>
-                <input type="text" class="review-input" />
-            </label>
-        </form>
-        <form class="customers-review-form">
-            <label for="email" class="review-label">
-                <span class="review-input-label">Email</span>
-                <input type="email" class="review-input" />
-            </label>
-        </form>
-        <form class="customers-review-form">
-            <label for="phone" class="review-label">
-                <span class="review-input-label">Phone</span>
-                <input type="number" class="review-input" />
-                <svg class="review-icon">
-                    <use href="./images/icons.svg#review-flag"></use>
+    <section class="customers-review">
+        <div class="cusomers-review-modal">
+            <button type="button" class="modal-close-btn" data-modal-close>
+                <svg class="icon icon-x-close">
+                    <use xlink:href="#icon-x-close"></use>
                 </svg>
-            </label>
-        </form>
-        <form class="customers-review-form">
-            <label for="comment" class="review-label">
-                <span class="review-input-label"></span>
+            </button>
+            <h2 class="review-message">
+                <span class="review">LEAVE A REVIEW ABOUT</span><br>
+                <span class="chocolate">OUR CHOCOLATE</span>
+            </h2>
+            <form class="customers-review-form">
+                <input type="text" class="review-input" placeholder="Name" class="review-text">
+            </form>
+            <form class="customers-review-form">
+                <input type="email" class="review-input" placeholder="Email">
+            </form>
+            <form class="customers-review-form">
+                <input type="number" class="review-input" placeholder=" +380   |  Phone number">
+            </form>
+            <form class="customers-review-form">
                 <textarea class="text-comment-box" placeholder="Enter text"></textarea>
-            </label>
-        </form>
+            </form>
+            <button type="submit" class="submit-btn">Send</button>
+            </form>
+        </div>
+    </section>
+    <script src="./js/modal.js"></script>
 </body>
-
 </html>
