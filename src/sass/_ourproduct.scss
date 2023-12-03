@@ -1,0 +1,132 @@
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  background-color:  #fffafa;
+}
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+}
+.prev-button,
+.next-button {
+  width: 90px;
+  height: 364px;
+
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 30px;
+  border-style: none;
+  font-family: "Montserrat", sans-serif;
+
+    background-color:  #fffafa;
+}
+.prev-button:active,
+.next-button:active{
+  background-color: #ffffff;
+  color:  #ffffff;
+  transition-duration: 0.5s;
+}
+
+.title-product {
+  margin-left: 10px;
+  color: #fd9222;
+}
+.our-products-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 18px;
+  
+}
+.card {
+  border: 1px solid #1a111111;
+  background-color:  #ffffff;
+  border-radius: 15px;
+  width: 270px;
+  height: 364px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  
+}
+.card:hover{
+   transition-duration: 0.5s;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);;
+ 
+}
+
+
+.card img {
+  margin-top: 32px;
+  max-width: 100%;
+}
+.item-name {
+  margin-top: 8px;
+  margin-bottom: 0;
+  text-transform: uppercase;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+}
+.item-description {
+  margin-top: 0;
+  margin-bottom: 18px;
+  font-size: 12px;
+  line-height: 14px;
+  font-weight: 400;
+  color: B2111111;
+  font-family: "Montserrat", sans-serif;
+}
+.b-box {
+  border-radius: 100px;
+  border: solid 1px #1a111111;
+  padding: 8px 20px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+ .b-box:hover {
+  transition-duration: 0.5s;
+  background-color: #fd9222;
+  color:  #ffffff;
+}
+
+.dot-navigation {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.dot {
+  height: 10px;
+  width: 10px;
+  margin: 0 5px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  cursor: pointer;
+}
+
+.dot.active {
+  background-color: #fd9222;
+}
+
+.card.active {
+  transform: scale(1.2);
+}
+
+.card:not(.active) {
+  transform: scale(1);
+}
