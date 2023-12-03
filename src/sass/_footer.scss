@@ -1,19 +1,125 @@
-.footer {
-  color: rebeccapurple;
-  border: 1px solid red;
+:root {
+  --bg-color: #1e1823;
+  --tx-white: #fff;
+  --tx-orange: #fd9222;
+  --line-color: rgba(255, 255, 255, 0.1);
 }
 
-.footer-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+footer,
+div,
+h3,
+ul,
+li,
+span,
+svg,
+a {
+  margin: 0;
+}
 
-  padding: 72px 156px;
+.footer-contact-list,
+.footer-menu-list,
+.footer-contact-item,
+.footer-menu-item {
+  padding: 0;
+}
 
-  height: 250px;
-  border: 3px solid red;
+li,
+a {
+  list-style: none;
+  text-decoration: none;
+}
 
-  .wrapper {
-    border: 3px solid yellowgreen;
+footer {
+  display: block;
+  width: 1200px;
+  height: 270px;
+  margin: 0px auto;
+  padding: 50px 32px;
+  background-color: var(--bg-color);
+
+  .footer-text h3 {
+    color: var(--tx-white);
+    font-family: Montserrat;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 34px;
+    letter-spacing: -0.56px;
+  }
+
+  .footer-text span {
+    color: var(--tx-orange);
+  }
+
+  .footer-wrapper {
+    width: 100%;
+  }
+
+  .footer-wrapper.blocks {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .footer-contact-and-network {
+      display: flex;
+      justify-content: center;
+      align-items: start;
+      gap: 63px;
+
+      .footer-contact-wrapper * {
+        color: var(--tx-white);
+        font-family: Montserrat;
+        font-size: 14px;
+        line-height: 18px;
+      }
+
+      .footer-contact-wrapper h3 {
+        font-weight: 500;
+      }
+
+      .footer-contact-wrapper {
+        display: flex;
+        flex-direction: column;
+
+        .footer-contact-list {
+          margin-top: 14px;
+          gap: 4px;
+        }
+
+        .footer-contact-list .footer-contact-item {
+          font-weight: 400;
+          letter-spacing: -0.28px;
+        }
+      }
+
+      .footer-network-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        gap: 18px;
+
+        .footer-network svg {
+          fill: var(--tx-white);
+          width: 24px;
+          height: 24px;
+        }
+      }
+    }
+  }
+
+  .footer-wrapper.menu {
+    margin-top: 62px;
+    padding-top: 24px;
+    border-top: 2px solid var(--line-color);
+
+    .footer-menu-list {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 24px;
+
+      .footer-menu-item a {
+        color: var(--tx-white);
+      }
+    }
   }
 }
