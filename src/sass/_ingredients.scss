@@ -1,0 +1,244 @@
+body{
+    font-family: 'Montserat', sans-serif;
+}
+
+.ingredients{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ing-cont{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 486px;
+    height: 156px;
+    gap: 28px;
+}
+
+.ing-main-text{
+    color: #111;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28px; 
+    letter-spacing: -0.72px;
+    text-transform: uppercase;
+}
+
+.taste-text{
+    color: #FD9222;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: -0.72px;
+    text-transform: uppercase;
+}
+
+.ing-2nd-text{
+    color: #111;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px; 
+    letter-spacing: -0.28px;
+}
+
+.ing-names{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1136px;
+    gap: 19px;
+}
+
+.ing-style{
+    display: flex;
+    padding: 28px 36px 28px 28px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 36px;
+    border-radius: 15px; 
+    list-style: none;
+}
+
+.ing-milk-choco{
+    background: #FD9222; 
+}
+
+.ing-nuts{
+    background: #1E1823;
+}
+
+.ing-milk,
+.ing-sweet-choco{
+    border-radius: 15px;
+    border: 1px solid #FD9222;
+}
+
+.ing-text-colors-wh{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 18px; 
+    letter-spacing: -0.28px;
+    text-transform: uppercase;
+}
+
+.ing-text-colors-bl{
+    color: #111;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 18px; 
+    letter-spacing: -0.28px;
+    text-transform: uppercase;
+}
+
+/* VISUALIZATION */
+.ing-visual{
+    position: absolute;
+    transform: translateY(100%);
+    transition: transform 0.45s cubic-bezier(0.4, 0, 0.2, 1);
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+
+.ing-milk-choco,
+.ing-milk,
+.ing-nuts,
+.ing-sweet-choco {
+    position: relative;
+    overflow: hidden;
+}
+
+.ing-milk-choco:hover .ing-visual,
+.ing-milk:hover .ing-visual,
+.ing-nuts:hover .ing-visual,
+.ing-sweet-choco:hover .ing-visual {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.ing-vis-h3{
+    color: #1E1823;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.54px;
+    text-transform: uppercase;
+    padding-left: 20px;
+}
+
+.ing-vis-btn{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 4px;
+    padding-left: 20px;
+}
+
+.ing-vis-btn-1{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 12px; 
+    background: #FD9222;
+    border-radius: 35px;
+    padding: 6px 16px;
+}
+
+.ing-vis-btn-2{
+    color: #1E1823;
+    font-family: Montserrat;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 12px; 
+    border-radius: 35px;
+    padding: 6px 16px;
+    border: 1px solid #FD9222;
+    background:#FFF;
+}
+
+.ing-vis-decription{
+    color: #1E1823;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: -0.28px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    text-align:justify;
+   }
+
+/* RECIPE */
+
+.ing-recipe-box{
+    display: flex;
+    width: 516px;
+    height: 400px;
+    padding: 32px;
+    justify-content: center;
+    align-items: center;
+}
+
+.ing-preparing-clip{
+    width: 600px;
+    height: 400px;
+    border-radius: 15px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.40) 0%, rgba(0, 0, 0, 0.40) 100%), url(<path-to-image>), lightgray -10.819px -343.839px / 103.473% 236.295% no-repeat;
+}
+
+.ing-recipe{
+    display: flex; 
+    justify-content: center;
+    flex-direction: column;
+    align-items: center; 
+    width: 516px; 
+    height: 400px; 
+    padding: 32px; 
+    flex-shrink: 0; 
+}
+
+.ing-recipe-text-1{
+    color: #1E1823;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px; 
+}
+
+.ing-recipe-text-2{
+    color: #1E1823;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: -0.28px;
+    list-style-type:disc;
+}
+
+.ing-recipe p{
+padding-left: 20px;
+}
+
+.ing-recipe li{
+    padding: 10px;
+}
