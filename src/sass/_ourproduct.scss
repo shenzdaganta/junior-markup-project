@@ -46,7 +46,11 @@ body {
   align-items: center;
   text-align: center;
   gap: 18px;
+<<<<<<< HEAD
   flex-wrap: wrap;
+=======
+  
+>>>>>>> main
 }
 .card {
   border: 1px solid #1a111111;
@@ -130,6 +134,7 @@ body {
 .card:not(.active) {
   transform: scale(1);
 }
+<<<<<<< HEAD
 
 
 
@@ -169,3 +174,5 @@ body {
             }
         }
    
+=======
+>>>>>>> main
