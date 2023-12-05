@@ -1,0 +1,111 @@
+.customers-review {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 517px;
+    height: 628px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    background: #FAFAFA;
+    padding: 40px;
+}
+
+.modal-close-btn {
+    padding: 0px;
+    border-radius: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    width: 24px;
+    height: 24px;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.x-button {
+    fill: #000;
+    width: 24px;
+    height: 24px;
+}
+
+.review-message {
+    color: #111;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: -0.72px;
+    text-transform: uppercase;
+}
+
+.chocolate {
+    color: #FD9222;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: -0.72px;
+    text-transform: uppercase;
+}
+
+
+.review-input {
+    font-family: Montserrat;
+    font-size: 18px;
+    margin-bottom: 15px;
+    outline: none;
+    display: flex;
+    padding: 22px 24px;
+    align-items: flex-start;
+    gap: 40px;
+    align-self: stretch;
+    width: 437px;
+    border-radius: 13px;
+    border: 1.5px solid rgba(17, 17, 17, 0.05);
+    box-shadow: 0px 5.445px 5.445px 0px rgba(0, 0, 0, 0.03);
+}
+
+.customers-review-form {
+    color: rgba(64, 64, 64, 0.30);
+    outline: none;
+}
+
+.text-comment-box {
+    font-family: Montserrat;
+    font-size: 18px;
+    outline: none;
+    width: 440px;
+    padding: 22px 24px;
+    border: 1px solid #ccc;
+    height: 137px;
+    margin-bottom: 20px;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.36px;
+    border-radius: 13px;
+    border: 1.5px solid rgba(17, 17, 17, 0.05);
+    box-shadow: 0px 5.445px 5.445px 0px rgba(0, 0, 0, 0.03);       
+}
+
+.submit-btn {
+    display: inline-flex;
+    padding: 14px 40px;
+    align-items: flex-start;
+    gap: 14px;
+    border-radius: 100px;
+    background: #FD9222;
+    color: var(--WHITE, #FFF);
+    cursor: pointer;
+    outline: none;    
+}
+
+.submit-btn:hover {
+    opacity: 0.8;
+    outline: none;
+}

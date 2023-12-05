@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer's Review</title>
+    <link rel="stylesheet" href="./sass/review.scss" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <section class="customers-review">
+        <div class="cusomers-review-modal">
+            <button type="button" class="modal-close-btn" data-modal-close>
+                <svg class="icon icon-x-close">
+                    <use xlink:href="#icon-x-close"></use>
+                </svg>
+            </button>
+            <h2 class="review-message">
+                <span class="review">LEAVE A REVIEW ABOUT</span><br>
+                <span class="chocolate">OUR CHOCOLATE</span>
+            </h2>
+            <form class="-review-form">
+                <input type="text" class="review-input" placeholder="Name" class="review-text">
+            <customers/form>
+            <form class="customers-review-form">
+                <input type="email" class="review-input" placeholder="Email">
+            </form>
+            <form class="customers-review-form">
+                <input type="number" class="review-input" placeholder=" +380   |  Phone number">
+            </form>
+            <form class="customers-review-form">
+                <textarea class="text-comment-box" placeholder="Enter text"></textarea>
+            </form>
+            <button type="submit" class="submit-btn">Send</button>
+            </form>
+
+        </div>
+    </section>
+    <script src="./js/modal.js"></script>
+</body>
+
+</html>
