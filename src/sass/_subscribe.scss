@@ -122,12 +122,46 @@
     padding-bottom: 25px;
 }
 
+<<<<<<< HEAD
 .blocks4-form-input {
+=======
+.blocks-button {
+    width: Hug (172px);
+    height: Hug (50px);
+    padding: 14px 40px 14px 40px;
+    border-radius: 100px;
+    gap: 14px;
+    background-color: #FD9222;
+}
+
+.text {
+    /*width: 120px;
+    height: 30px;*/
+    font-family: Montserrat;
+    font-weight: 600;
+    line-height: 22px;
+    font-size: 15px;
+    color: white;
+}
+
+/*modal*/
+
+.blocks-subscribe {
+    width: Hug (458px);
+    height: Hug (136px);
+    top: 236px;
+    left: 40px;
+    gap: 28px;
+}
+
+.blocks-input {
+>>>>>>> main
     border: 2px solid white;
     background: none;
     border-radius: 30px;
     padding: 14px;
     gap: 40px;
+<<<<<<< HEAD
     width: 200px;
     height: Hug (50px);
     font-family: Montserrat;
@@ -136,6 +170,10 @@
     line-height: 22px;
     letter-spacing: -0.02em;
     text-align: left;
+=======
+    width: 313px;
+    height: 52px;
+>>>>>>> main
 }
 
 .blocks4-form-input:placeholder-shown {
