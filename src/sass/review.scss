@@ -7,7 +7,6 @@ li {
 
 .customers-review {
     background: #FAFAFA;
-
 }
 
 .review-message {
@@ -20,7 +19,6 @@ li {
     justify-content: center;
     gap: 28px;
     margin-bottom: 50px;
-    
 }
 
 .review-card {
@@ -96,7 +94,6 @@ li {
 .review-btn:hover {
     background-color: #FD9222;
     color:#FAFAFA
-
 }
 
 /* Modal Style */
@@ -189,25 +186,56 @@ li {
 .customers-review-form {
     color: rgba(64, 64, 64, 0.30);
     outline: none;
+    position: relative;
+}
+
+.input-number {
+    position: absolute;
+    top: 24px;
+    left: 24px;
 }
 
 .flag {
     width: 32px;
     height: 24px;
-    display: inline-flex;
+}
+
+.input-number {
+    display: flex;
+}
+
+.review-phone {
+    font-family: Montserrat;
+    font-size: 18px;
+    margin-bottom: 15px;
+    outline: none;
+    padding: 22px 24px;
+    width: 437px;
+    border-radius: 13px;
+    border: 1.5px solid rgba(17, 17, 17, 0.05);
+    margin-left: 0;
+    align-items: flex-start;
+    text-align: center;
+}
+
+.area-code {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 500;
+    position: absolute;
+    height: 22px;
+    margin-left: 18px;
 }
 
 .text-comment-box {
     font-family: Montserrat;
     font-size: 18px;
     outline: none;
-    width: 440px;
     padding: 22px 24px;
-    border: 1px solid #ccc;
+    width: 440px;
     height: 137px;
     margin-bottom: 20px;
-    font-family: Montserrat;
-    font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
