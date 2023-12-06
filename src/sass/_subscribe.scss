@@ -1,96 +1,152 @@
 .subscribe {
-    background-image: url('../images/Subcribe.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    text-align: center;
     width: 1200px;
     height: 370px;
-    top: 4414px;
+    background-image: url('../images/Subcribe.jpg');
 }
 
 .blocks {
-    /*background-color: violet;*/
-    color: #FFFFFF;
-    /*width: Hug (467px);
-    height: Hug (226px);
-    top: 72px;
-    left: 366px;
+    width: 467px;
+    height: 226px;
+    margin-left: 366px;
     gap: 24px;
-    padding: 72px, 367px, 72px, 366px;*/
-    width: Hug (467px);
-    height: Hug (226px);
-    padding-top: 50px;
+    padding-bottom: 15px;
+    padding-top: 40px;
     padding-bottom: 72px;
-    gap: 24px;
 }
 
-.text1 {
+.blocks1 {
+    font-family: Montserrat;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -0.03em;
+    height: 56px;
+}
+
+.blocks2 {
+    font-family: Montserrat;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    line-height: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.subscribe-btn1 {
+    width: 172px;
+    height: 50px;
+    padding: 14px 40px 14px 40px;
+    border-radius: 100px;
+    gap: 14px;
+    color: white;
+    background-color: #FD9222;
+    text-align: center;
+    align-items: center;
+    margin-left: 150px;
+    font-family: Montserrat;
+    font-size: 18px;
+    line-height: 21.94px;
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+
+.subscribe-btn1:hover {
+    color: #FD9222;
+    display: inline-flex;
+    padding: 16px 32px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 100px;
+    background: #FCF1E0;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+/*modal*/
+
+.modal {
+    width: 538px;
+    height: 196px;
+    border-radius: 15px;
+}
+
+.is-hidden {
+    pointer-events: none;
+    opacity: 0;
+}
+
+.subscribe-btn2-close {
+    border-radius: 2px;
+    width: 20px;
+    height: 20px;
+    display: block;
+    position: absolute;
+    margin-left: 500px;
+    margin-top: 15px;
+}
+
+.blocks4 {
+    background-size: cover;
+    width: 538px;
+}
+
+.blocks4-modal {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.blocks4-set {
+    display: block;
+    margin-left: 40px;
+    margin-right: 40px;
+    width: 538px;
+}
+
+.blocks4-text1 span {
+    color: #FD9222;
+}
+
+.blocks4-text1 {
+    color: black;
     font-family: Montserrat;
     font-size: 24px;
     font-weight: 600;
     line-height: 28px;
     letter-spacing: -0.03em;
-    gap: 28px;
+    text-align: left;
 }
 
-.text2 {
-    font-family: Montserrat;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 18px;
-    letter-spacing: -0.02em;
-    height: 72px;
-    padding-bottom: 5px;
+.blocks-form {
+    display: flex;
+    padding-bottom: 25px;
 }
 
-.blocks-button {
-    width: Hug (172px);
-    height: Hug (50px);
-    padding: 14px 40px 14px 40px;
-    border-radius: 100px;
-    gap: 14px;
-    background-color: #FD9222;
-
-.text {
-    /*width: 120px;
-    height: 30px;*/
-    font-family: Montserrat;
-    font-weight: 600;
-    line-height: 22px;
-    font-size: 15px;
-    color: white;
-}
-
-/*modal*/
-
-.blocks-subscribe {
-    width: Hug (458px);
-    height: Hug (136px);
-    top: 236px;
-    left: 40px;
-    gap: 28px;
-}
-
-.blocks-input {
+.blocks4-form-input {
     border: 2px solid white;
     background: none;
     border-radius: 30px;
-    padding: 14px 24px 14px 24px;
+    padding: 14px;
     gap: 40px;
-    Width: Fixed (313px);
-    Height: Fixed (52px);
+    width: 200px;
+    height: Hug (50px);
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: -0.02em;
+    text-align: left;
 }
 
-.blocks-input:placeholder-shown {
+.blocks4-form-input:placeholder-shown {
     color: white;
 }
 
-.blocks-subscribe2 {
-    display: flex;
+.placeholder {
+    color: white;
 }
 
-.blocks-input-button {
+.blocks-form-button {
     width: Hug (172px);
     height: Hug (50px);
     padding: 14px 40px 14px 40px;
@@ -98,8 +154,25 @@
     gap: 14px;
     background-color: #FD9222; 
     color: #FFFFFF;
+    margin-left: 80px;
+    font-family: Montserrat;
+    font-size: 18px;
+    line-height: 21.94px;
 }
 
-.blocks-text span {
+.blocks-form-button:hover {
+    width: Hug (172px);
+    height: Hug (50px);
     color: #FD9222;
+    display: inline-flex;
+    padding: 14px 40px 14px 40px;
+    align-items: flex-start;
+    gap: 14px;
+    border-radius: 100px;
+    background: #FCF1E0;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+.blocks-form {
+    padding-bottom: 25px;
 }
