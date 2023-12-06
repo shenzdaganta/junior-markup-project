@@ -1,46 +1,83 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Customer's Review</title>
-    <link rel="stylesheet" href="./sass/review.scss" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap" rel="stylesheet">
-</head>
-
-<body>
-    <section class="customers-review">
-        <div class="cusomers-review-modal">
-            <button type="button" class="modal-close-btn" data-modal-close>
-                <svg class="icon icon-x-close">
-                    <use xlink:href="#icon-x-close"></use>
-                </svg>
-            </button>
-            <h2 class="review-message">
-                <span class="review">LEAVE A REVIEW ABOUT</span><br>
-                <span class="chocolate">OUR CHOCOLATE</span>
-            </h2>
-            <form class="-review-form">
-                <input type="text" class="review-input" placeholder="Name" class="review-text">
-            <customers/form>
-            <form class="customers-review-form">
-                <input type="email" class="review-input" placeholder="Email">
-            </form>
-            <form class="customers-review-form">
-                <input type="number" class="review-input" placeholder=" +380   |  Phone number">
-            </form>
-            <form class="customers-review-form">
-                <textarea class="text-comment-box" placeholder="Enter text"></textarea>
-            </form>
-            <button type="submit" class="submit-btn">Send</button>
-            </form>
-
+<section class="customers-review">
+    <div class="main-reviews">
+        <h1 class="review-message">
+            <span class="chocolate">CHOCOLATE</span>
+            <span class="love">IS LOVED</span>
+        </h1>
+        <div class="review-grid">
+            <ul class="review-list">
+                <li class="review-card">
+                    <img src="images/review1.jpg" alt="Victoria Dobrzhanska - Customer's review">
+                    <div class="card">
+                        <h3>Victoria Dobrzhanska</h3>
+                        <p>I love this chocolate bar. Perfect combination of light crispy wafer, covered in a thin
+                            layer chocolate.</p>
+                    </div>
+                </li>
+                <li class="review-card"><img src="images/review2.jpg" alt="Nazar Babenko - Customer's review">
+                    <div class="card">
+                        <h3>Nazar Babenko</h3>
+                        <p>This chocolate confection is a delight! A delight! The wafer is light and crisp, the
+                            hazelnut cream is smooth, and the chocolate is good.</p>
+                    </div>
+                </li>
+                <li class="review-card"><img src="images/review3.jpg" alt="Olena Kampusch - Customer's review">
+                    <div class="card">
+                        <h3>Olena Kampusch</h3>
+                        <p> Chocolate is a family favourite treat. Love the delicious smooth chocolate and the
+                            creaminess inside. The wafer is soft but crunchy.</p>
+                    </div>
+                </li>
+            </ul>
         </div>
-    </section>
-    <script src="./js/review.js"></script>
-</body>
+        <div class="offer-banner">
+            <svg class="oblong-banner">
+                <use href="./images/review.svg#oblong"></use>
+            </svg>
+            <svg class="banner">
+                <use href="./images/review.svg#eclipse"></use>
+            </svg>
+            <svg class="banner">
+                <use href="./images/review.svg#eclipse"></use>
+            </svg>
+            <svg class="banner">
+                <use href="./images/review.svg#eclipse"></use>
+            </svg>
+        </div>
+        <div class="review-button">
+            <button class="review-btn" data-modal-open>Leave a review</button>
+        </div>
+        <div class="backdrop is-hidden" data-modal>
+            <div class="cusomers-review-modal">
+                <button type="button" class="modal-close-btn" data-modal-close>
+                    <svg class="x-close">
+                        <use href="./images/review.svg#close"></use>
+                    </svg>
+                </button>
+                <h2 class="modal-review-message">
+                    <span class="review">LEAVE A REVIEW ABOUT</span><br>
+                    <span class="chocolate">OUR CHOCOLATE</span>
+                </h2>
+                <form class="customers-review-form">
+                    <input type="text" class="review-input" placeholder="Name" class="review-text">
+                </form>
+                <form class="customers-review-form">
+                    <input type="email" class="review-input" placeholder="Email">
+                </form>
+                <form class="customers-review-form">
+                    <svg class="flag">
+                        <use href="./images/review.svg#frame"></use>
+                    </svg>
+                    <span class="+380">+380</span>
+                    <input type="number" class="review-input" placeholder="  |  Phone number">
+                </form>
+                <form class="customers-review-form">
+                    <textarea class="text-comment-box" placeholder="Enter text"></textarea>
+                </form>
+                <button type="submit" class="submit-btn">Send</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
 
-</html>
