@@ -4,9 +4,16 @@
   box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
 }
-body {
+
+.our-product-section{
   background-color: #fffafa;
+  background-size: cover;
+  background-repeat: no repeat;
+  width: 1200px;
+  margin: 0 auto;
+  height: 460px;
 }
+
 .title {
   display: flex;
   justify-content: center;
