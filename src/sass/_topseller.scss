@@ -81,8 +81,10 @@
     transition-duration: 0.5s;
 }
 
+
 // MEDIA QUERY
 @media (min-width: 1200px) {
+
     // 1200px Up
         .top-seller-section {
             width: 1200px;
@@ -91,6 +93,7 @@
     }
     
     @media (min-width: 768px) and (max-width: 1199px) {
+    
     // 768px Up and 1199px Down
         .top-seller-section {
             width: 768px;
@@ -114,6 +117,7 @@
     }
     
     @media (max-width: 767px) {
+    
     // 767px Down
         .top-seller-section {
             width: 375px;
