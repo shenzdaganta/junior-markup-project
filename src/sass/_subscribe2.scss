@@ -1,24 +1,54 @@
-.subscribe {
+.subscribe-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 1200px;
     height: 370px;
-    background-image: url('../images/Subcribe.jpg');
-    background-repeat: no repeat;
+    background-image: url(/src/images/Subcribe.jpg);
+    background-repeat: no-repeat; //no repeat
     background-size: cover;
+    background-position: center; //added
+    background-attachment: fixed; //added
+    margin: 0 auto;
+
+    //   padding: 72px 367px;
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        background-image: url(/src/images/Subcribe.jpg);
+    }
 }
 
-.subscribe-section {
-    width: 1200px;
-    margin: 0 auto;
+@media (width < 1200px) {
+    .subscribe-section {
+        width: 100vw;
+        height: 100%;
+        padding: 72px 367px;
+    }
+}
+
+@media (width <=768px) {
+    .subscribe-section {
+        padding: 72px 150px;
+    }
+}
+
+@media (width <=428px) {
+    .subscribe-section {
+        padding: 72px 24px;
+    }
 }
 
 .blocks {
+    display: block;
+    justify-content: center;
     width: 467px;
     height: 226px;
-    margin-left: 366px;
+    // margin-left: 366px;
     gap: 24px;
-    padding-bottom: 15px;
-    padding-top: 40px;
-    padding-bottom: 72px;
+    //   padding-bottom: 15px;
+    //   padding-top: 40px;
+    //   padding-bottom: 72px;
 }
 
 .blocks1 {
@@ -44,13 +74,13 @@
 .subscribe-btn1 {
     width: 172px;
     height: 50px;
-    padding: 14px 40px 14px 40px;
+    padding: 14px 40px; //14px 40px 14px 40px
     border-radius: 100px;
     gap: 14px;
     color: white;
     background-color: #FD9222;
     text-align: center;
-    align-items: center;
+    //   align-items: center;
     margin-left: 150px;
     font-family: Montserrat;
     font-size: 18px;
@@ -68,10 +98,10 @@
     gap: 10px;
     border-radius: 100px;
     background: #FCF1E0;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 4px 4px 0px, rgba(0, 0, 0, 0.15);
 }
 
-/*modal*/
+//modal//
 
 .modal {
     width: 538px;
@@ -136,7 +166,7 @@
     border-radius: 30px;
     padding: 14px;
     gap: 40px;
-    Width: 200px;
+    width: 200px;
     height: Hug (50px);
     font-family: Montserrat;
     font-size: 18px;
@@ -160,7 +190,7 @@
     padding: 14px 40px 14px 40px;
     border-radius: 100px;
     gap: 14px;
-    background-color: #FD9222; 
+    background-color: #FD9222;
     color: #FFFFFF;
     margin-left: 80px;
     font-family: Montserrat;
