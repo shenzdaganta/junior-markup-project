@@ -3,13 +3,48 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Top Seller Section</title>
+    <title>Simply Chocolate</title>
+    <link rel="stylesheet" href="./sass/index.scss"/>
+
+    <!--Java Script-->
     <script type="module" src="./index.js"></script>
-    <link rel="stylesheet" href="./sass/topseller.scss">
+      <script defer src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+        integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+        crossorigin="anonymous"></script>
+      <script defer src="js/mobile-menu.js"></script>
+      <script type="module" src="./js/review.js"></script>
+      <script type="module" src="./js/topseller-modal.js"></script>
+      <script src="js/modal.js"></script>
+      <!-- Top Seller JS -->
+      <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.13/js/intlTelInput-jquery.min.js"></script>
+      <script src="./js/ts-select.js"></script>
+      <script defer src="./js/ts-country-code.js"></script>
     
+    <!--Fonts-->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,600;1,700&family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet">
+
+    <!-- Top-seller -->
+    <link rel="stylesheet" href="https://code.jquery.com/jquery-3.4.1.min.js">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.13/js/intlTelInput-jquery.min.js">
+        <!-- Country-code -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.13/css/intlTelInput.css">
+
   </head>
   <body>
     <!-- ❗️❗️❗️ Add partials like so for every page -->
+    <include src="./partials/heroabout.html"></include>
+    <include src="./partials/ingredients.html"></include>
+    <include src="./partials/ourproduct.html"></include>
     <include src="./partials/topseller.html"></include>
+    <include src="./partials/review.html"></include>
+    <include src="./partials/subscribe.html"></include>
+    <include src="./partials/footer.html"></include>
   </body>
 </html>
