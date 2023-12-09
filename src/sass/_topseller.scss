@@ -81,6 +81,132 @@
     transition-duration: 0.5s;
 }
 
+// MEDIA QUERY
+@media (min-width: 1200px) {
+    // 1200px Up
+        .top-seller-section {
+            width: 1200px;
+            text-align: center;
+        }
+    }
+    
+    @media (min-width: 768px) and (max-width: 1199px) {
+    // 768px Up and 1199px Down
+        .top-seller-section {
+            width: 768px;
+        }
+    
+        .top-seller-image {
+            width: 344px;
+        }
+    
+        .top-seller-list img {
+            width: 100%;
+        }
+    
+        .top-seller-list li:nth-child(3n) {
+            display: none;
+        }
+    
+        .top-seller-lowertext {
+            width: 306px;
+        }
+    }
+    
+    @media (max-width: 767px) {
+    // 767px Down
+        .top-seller-section {
+            width: 375px;
+        }
+    
+        .top-seller {
+            padding: 0;
+        }
+    
+        .top-seller-list {
+            margin-top: 32px;
+            margin-bottom: 20px;
+        }
+    
+        .top-seller-image {
+            width: 335px;
+        }
+    
+        .top-seller-list img {
+            width: 100%;
+        }
+    
+        .top-seller-list li:nth-child(3n) {
+            display: none;
+        }
+    
+        .top-seller-list li:nth-child(2n) {
+            position: relative;
+            top: 130px;
+        }
+    
+        .top-seller-lowertext {
+            width: 308px;
+            margin-top: 20px;
+            margin-bottom: 32px;
+            position: relative;
+            bottom: 460px;
+            right: 12px;
+        }
+    
+        .btn-seller-text {
+            font-size: 14px;
+            font-weight: 600;
+            color: #FFF;
+            background-color: #FD9222;
+            border-radius: 100px;
+            border: none;
+            padding: 12px 28px;
+            font-weight: 600;
+        }
+    
+        .top-seller-lower {
+            justify-content: center;
+        }
+
+        //MODAL Mobile
+            //Chocolate image modal
+        .modal h2{
+            font-size: 20px;
+        }
+
+        .ts-buynow-list{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .ts-chocolate{
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+            gap: 74px;
+            padding: 8px 16px;
+        }
+
+        .ts-list img{
+            border-radius: 15px;
+            margin-bottom: 0;
+            width: 84px;
+            height: 69px;
+        }
+
+        button .ts-chocolate{
+            width: 263px;
+        }
+
+
+        .ts-chocolate-btn{
+            font-size: 14px;
+        }
+    }
+
 // MODAL
 .top-seller-backdrop{
     width: 100%;
@@ -292,134 +418,3 @@ input[type="number"]::-webkit-outer-spin-button {
     background-color: #FCF1E0;
     transition-duration: 0.5s;
 }
-
-
-
-// MEDIA QUERY
-@media (min-width: 1200px) {
-    // 1200px Up
-        .top-seller-section {
-            width: 1200px;
-            text-align: center;
-        }
-    }
-    
-    @media (min-width: 768px) and (max-width: 1199px) {
-    // 768px Up and 1199px Down
-        .top-seller-section {
-            width: 768px;
-        }
-    
-        .top-seller-image {
-            width: 344px;
-        }
-    
-        .top-seller-list img {
-            width: 100%;
-        }
-    
-        .top-seller-list li:nth-child(3n) {
-            display: none;
-        }
-    
-        .top-seller-lowertext {
-            width: 306px;
-        }
-    }
-    
-    @media (max-width: 767px) {
-    // 767px Down
-        .top-seller-section {
-            width: 375px;
-        }
-    
-        .top-seller {
-            padding: 0;
-        }
-    
-        .top-seller-list {
-            margin-top: 32px;
-            margin-bottom: 20px;
-        }
-    
-        .top-seller-image {
-            width: 335px;
-        }
-    
-        .top-seller-list img {
-            width: 100%;
-        }
-    
-        .top-seller-list li:nth-child(3n) {
-            display: none;
-        }
-    
-        .top-seller-list li:nth-child(2n) {
-            position: relative;
-            top: 130px;
-        }
-    
-        .top-seller-lowertext {
-            width: 308px;
-            margin-top: 20px;
-            margin-bottom: 32px;
-            position: relative;
-            bottom: 460px;
-            right: 12px;
-        }
-    
-        .btn-seller-text {
-            font-size: 14px;
-            font-weight: 600;
-            color: #FFF;
-            background-color: #FD9222;
-            border-radius: 100px;
-            border: none;
-            padding: 12px 28px;
-            font-weight: 600;
-        }
-    
-        .top-seller-lower {
-            justify-content: center;
-        }
-
-        //MODAL Mobile
-            //Chocolate image modal
-        .modal h2{
-            font-size: 20px;
-        }
-
-        .ts-buynow-list{
-            display: flex;
-            align-items: center;
-            flex-direction: column;
-            gap: 8px;
-        }
-
-        .ts-chocolate{
-            display: flex;
-            align-items: center;
-            flex-direction: row;
-            gap: 74px;
-            padding: 8px 16px;
-        }
-
-        .ts-list img{
-            border-radius: 15px;
-            margin-bottom: 0;
-            width: 84px;
-            height: 69px;
-        }
-
-        button .ts-chocolate{
-            width: 263px;
-        }
-
-
-        .ts-chocolate-btn{
-            font-size: 14px;
-        }
-        //     //Form modal
-        
-        
-    }
