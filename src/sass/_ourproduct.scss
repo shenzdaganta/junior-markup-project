@@ -1,8 +1,6 @@
-body {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
+.our-products-section {
   background-color: #ffffff;
+
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -13,6 +11,11 @@ body {
   width: 1200px;
   margin: 0 auto;
   height: 1000px;
+
+  width: auto;
+  height: 500px;
+  padding-top: 600px;
+
 }
 
 .title {
@@ -63,8 +66,8 @@ body {
   border: 1px solid #1a111111;
   background-color: #ffffff;
   border-radius: 15px;
-  width: 270px;
-  height: 364px;
+  width: 360px;
+  height: 464px;
   display: flex;
   flex-direction: column;
   align-items: start;

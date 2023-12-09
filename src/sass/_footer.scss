@@ -80,7 +80,10 @@ footer {
         }
 
         .footer-contact-list .footer-contact-item {
+          display: flex;
+          flex-direction: column;
           margin: 2px 0;
+          gap: 4px;
           font-weight: 400;
           letter-spacing: -0.28px;
         }
