@@ -4,7 +4,7 @@
     align-items: center;
     width: 1200px;
     height: 370px;
-    background-image: url(../images/subscribe.jpg);
+    background-image: url(/src/images/Subcribe.jpg);
     background-repeat: no-repeat; //no repeat
     background-size: cover;
     background-position: center; //added
@@ -15,7 +15,7 @@
     @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
-        background-image: url(../images/subscribe.jpg);
+        background-image: url(/src/images/Subcribe.jpg);
     }
 }
 
