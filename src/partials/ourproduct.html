@@ -22,7 +22,7 @@
                 <button class="b-box">50 UAH</button>
             </div>
         </div>
-        <div class="product-card"><img class="img" src="/src/images/lime&seasalt.jpg" alt="a lime & seasalt flavor">
+        <div class="product-card"><img class="img" src="/src/images/lime&seasalt.jpg" alt="a seasalt flavor">
             <h3 class="item-name">lime&sea salt</h3>
             <p class="item-description">
                 Dark chocolate
@@ -40,7 +40,7 @@
                 <button class="b-box">54 UAH</button>
             </div>
         </div>
-        <div class="product-card"><img class="img" src="/src/images/classicmilk.jpg" alt="a milk flavor">
+        <div class="product-card"><img class="img" src="/src/images/classicmilk.jpg" alt="milk">
             <h3 class="item-name">classic</h3>
             <p class="item-description">
                 Milk chocolate
@@ -59,7 +59,7 @@
             </div>
         </div>
         <div class="product-card"><img class="img" src="/src/images/roastedwinterfruits.jpg"
-                alt="a roasted winterfruits flavor">
+                alt="a winterfruits flavor">
             <h3 class="item-name">roasted fruits</h3>
             <p class="item-description">
                 Dark chocolate
@@ -68,7 +68,7 @@
                 <button class="b-box">66 UAH</button>
             </div>
         </div>
-        <div class="product-card"><img class="img" src="/src/images/classicwhite.jpg" alt="a classicwhite flavor">
+        <div class="product-card"><img class="img" src="/src/images/classicwhite.jpg" alt="a classwhite flavor">
             <h3 class="item-name">classic</h3>
             <p class="item-description">
                 white chocolate
@@ -77,6 +77,7 @@
                 <button class="b-box">54 UAH</button>
             </div>
         </div>
+
         <button class="next-button">></button>
     </div>
 
@@ -89,3 +90,84 @@
     </div>
 
 </section>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const cardsContainer = document.querySelector('.our-products-container');
+        const cards = document.querySelectorAll('.product-card');
+        const dotNavigation = document.querySelector('.dot-navigation');
+        const dots = document.querySelectorAll('.dot');
+        const cardCount = cards.length;
+        let currentIndex = 0;
+
+        function highlightDot(index) {
+            dots.forEach((dot, i) => {
+                dot.classList.toggle('active', i === index);
+                dot.style.opacity = i === index ? 1 : 0.5;
+            });
+        }
+
+        function showCards(index) {
+            cards.forEach((card, i) => {
+                const newIndex = (i + index) % cardCount;
+                card.style.display = i >= index && i < index + 4 ? 'block' : 'none';
+            });
+        }
+
+        function updateDots(index) {
+            dots.forEach((dot, i) => {
+                dot.classList.toggle('active', i === index / 4);
+            });
+        }
+
+        function showNextCards() {
+            currentIndex = (currentIndex + 4) % cardCount;
+            cardsContainer.style.transition = 'left 0.5s ease-in-out';
+            cardsContainer.style.left = `-${currentIndex * 100}%`;
+            showCards(currentIndex);
+            updateDots(currentIndex);
+        }
+
+        function showPrevCards() {
+            currentIndex = (currentIndex - 4 + cardCount) % cardCount;
+            cardsContainer.style.transition = 'left 0.5s ease-in-out';
+            cardsContainer.style.left = `-${currentIndex * 100}%`;
+            showCards(currentIndex);
+            updateDots(currentIndex);
+        }
+
+        document.querySelector('.prev-button').addEventListener('click', () => {
+            showPrevCards();
+            setTimeout(() => {
+                cardsContainer.style.transition = '';
+            }, 500);
+        });
+
+        document.querySelector('.next-button').addEventListener('click', () => {
+            showNextCards();
+            setTimeout(() => {
+                cardsContainer.style.transition = '';
+            }, 500);
+        });
+
+        function highlightDot(index) {
+            dots.forEach((dot, i) => {
+                dot.classList.toggle('active', i === index);
+            });
+        }
+
+        cards.forEach((card, i) => {
+            card.addEventListener('mouseover', () => {
+                const cardIndex = (currentIndex + i) % cardCount;
+                highlightDot(cardIndex);
+            });
+
+            card.addEventListener('mouseout', () => {
+                highlightDot(currentIndex);
+            });
+        });
+
+
+        showCards(currentIndex);
+        updateDots(currentIndex);
+    });
+</script>
