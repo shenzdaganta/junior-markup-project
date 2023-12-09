@@ -98,10 +98,12 @@
     gap: 10px;
     border-radius: 100px;
     background: #FCF1E0;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 4px 4px 0px, rgba(0, 0, 0, 0.15);
 }
 
-/modal/ .modal {
+//modal//
+
+.modal {
     width: 538px;
     height: 196px;
     border-radius: 15px;
