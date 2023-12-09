@@ -6,7 +6,7 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
-.our-product-section{
+.our-product-section {
   background-color: #fd9222;
   background-size: cover;
   background-repeat: no repeat;
@@ -59,7 +59,7 @@ body {
   gap: 18px;
   flex-wrap: wrap;
 }
-.card {
+.product-card {
   border: 1px solid #1a111111;
   background-color: #ffffff;
   border-radius: 15px;
@@ -70,12 +70,12 @@ body {
   align-items: start;
   text-align: center;
 }
-.card:hover {
+.product-card:hover {
   transition-duration: 0.5s;
   box-shadow: 0 4px 8px 0 #ebdfd1;
 }
 
-.card img {
+.product-card img {
   margin-top: 32px;
   max-width: 100%;
 }
@@ -133,19 +133,19 @@ body {
   opacity: 1;
 }
 
-.card.active {
+.product-card.active {
   transform: scale(1.2);
 }
 
-.card:not(.active) {
+.product-card:not(.active) {
   transform: scale(1);
 }
-.card {
+.product-card {
   position: relative;
   transition: transform 0.3s ease-in-out;
 }
 
-.card:hover {
+.product-card:hover {
   transform: scale(1.1);
 }
 
@@ -160,7 +160,7 @@ body {
     gap: 10px;
   }
 
-  .card {
+  .product-card {
     width: calc(50% - 10px);
   }
 
@@ -178,7 +178,7 @@ body {
     gap: 5px;
   }
 
-  .card {
+  .product-card {
     width: calc(100% - 10px);
   }
 
