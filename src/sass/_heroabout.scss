@@ -4,6 +4,11 @@
     padding-top: 24px;
 }
 
+.hero-desktop {
+    width: 1200px;
+    margin: 0 auto;
+}
+
 .heromain-logocontainer {
     gap: 4px;
     display: flex;
@@ -11,6 +16,11 @@
     align-items: center;
     padding-right: 100px;
     flex-wrap: nowrap;
+}
+
+.hero-main {
+    width: 1200px;
+    margin: 0 auto;
 }
 
 .heromain-logo {
@@ -247,7 +257,7 @@
 }
 
 .heroabout-icon {
-    padding: 15px;
+    padding: 20px;
     border-radius: 365px;
     border: 1px solid rgba(255, 255, 255, 0.50);
 }

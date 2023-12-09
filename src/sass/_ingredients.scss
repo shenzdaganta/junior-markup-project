@@ -8,6 +8,14 @@ body{
     justify-content: center;
 }
 
+.ingredients {
+    width: 1200px;
+    margin: 0 auto;
+    background-color: #FFF;
+    background-size: cover;
+    height: 1000px;
+}
+
 .ing-cont{
     display: flex;
     align-items: center;
@@ -26,6 +34,7 @@ body{
     line-height: 28px; 
     letter-spacing: -0.72px;
     text-transform: uppercase;
+    padding-top: 100px;
 }
 
 .taste-text{
@@ -204,7 +213,7 @@ body{
     width: 600px;
     height: 400px;
     border-radius: 15px;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.40) 0%, rgba(0, 0, 0, 0.40) 100%), url(<path-to-image>), lightgray -10.819px -343.839px / 103.473% 236.295% no-repeat;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.40) 0%, rgba(0, 0, 0, 0.40) 100%), lightgray -10.819px -343.839px / 103.473% 236.295% no-repeat;
 }
 
 .ing-recipe{
