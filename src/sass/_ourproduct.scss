@@ -1,8 +1,9 @@
-* {
+body {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "Montserrat", sans-serif;
+  background-color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .our-product-section{
@@ -19,22 +20,20 @@
   justify-content: center;
   align-items: center;
   margin-bottom: 50px;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
-  margin-top: 500px;
 }
 .prev-button,
 .next-button {
-  width: 90px;
+  width: 60px;
   height: 364px;
 
   color: #ffffff;
   font-weight: 400;
   font-size: 30px;
   border-style: none;
-  font-family: "Montserrat", sans-serif;
-
-  background-color: #fffafa;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #ffffff;
 }
 .prev-button:active,
 .next-button:active {
@@ -47,15 +46,19 @@
   margin-left: 10px;
   color: #fd9222;
 }
+.our-products-section {
+  background-color: #ffffff;
+  width: auto;
+  height: 500px;
+}
 .our-products-container {
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
   gap: 18px;
-
+  flex-wrap: wrap;
 }
-
 .card {
   border: 1px solid #1a111111;
   background-color: #ffffff;
@@ -66,7 +69,6 @@
   flex-direction: column;
   align-items: start;
   text-align: center;
-  
 }
 .card:hover {
   transition-duration: 0.5s;
@@ -84,7 +86,7 @@
   font-size: 18px;
   line-height: 24px;
   font-weight: 600;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 .item-description {
   margin-top: 0;
@@ -93,13 +95,13 @@
   line-height: 14px;
   font-weight: 400;
   color: B2111111;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 .b-box {
   border-radius: 100px;
   border: solid 1px #1a111111;
   padding: 8px 20px;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 600;
 }
 .b-box:hover {
@@ -111,7 +113,7 @@
 .dot-navigation {
   display: flex;
   justify-content: center;
-  margin-top: 20px;
+  margin-top: 40px;
 }
 
 .dot {
@@ -123,7 +125,7 @@
   display: inline-block;
   transition: background-color 0.6s ease;
   cursor: pointer;
-   transition: background-color 0.3s ease, opacity 0.3s ease;
+  transition: background-color 0.3s ease, opacity 0.3s ease;
 }
 
 .dot.active {
@@ -145,7 +147,6 @@
 
 .card:hover {
   transform: scale(1.1);
- 
 }
 
 .our-products-container {
