@@ -241,13 +241,14 @@ body {
     line-height: 18px;
     letter-spacing: -0.28px;
     display: block;
+    list-style: circle;
 }
 
-.ing-recipe-text-2 {
-    padding-top: 28px;
-    padding-left: 20px;
+.ing-recipe {
+    align-items: flex-start;
+    gap: 28px;
 }
 
-.ing-recipe-text-2 li {
+.ing-recipe li {
     padding: 10px;
 }
