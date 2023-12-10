@@ -240,12 +240,14 @@ body {
     font-weight: 400;
     line-height: 18px;
     letter-spacing: -0.28px;
+    display: block;
 }
 
-.ing-recipe p {
+.ing-recipe-text-2 {
+    padding-top: 28px;
     padding-left: 20px;
 }
 
-.ing-recipe li {
+.ing-recipel {
     padding: 10px;
 }
