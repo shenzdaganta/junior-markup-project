@@ -240,15 +240,17 @@ body {
     font-weight: 400;
     line-height: 18px;
     letter-spacing: -0.28px;
-    display: block;
-    list-style: circle;
+
 }
 
 .ing-recipe {
     align-items: flex-start;
     gap: 28px;
+    justify-content: center;
 }
 
 .ing-recipe li {
     padding: 10px;
+    display: block;
+    list-style-type: disc;
 }
