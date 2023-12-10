@@ -15,31 +15,14 @@
   justify-content: center;
   align-items: center;
   margin-bottom: 50px;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
 }
-.prev-button,
-.next-button {
-  width: 50px;
-  height: 364px;
 
-  color: #ffffff;
-  font-weight: 400;
-  font-size: 30px;
-  border-style: none;
-  font-family: "Montserrat", sans-serif;
-  background-color:#ffffff;
-}
-.prev-button:active,
-.next-button:active {
-  background-color: #ffffff;
-  color: #ffffff;
-  transition-duration: 0.5s;
-}
 
 .title-product {
   margin-left: 10px;
-  color:#FD9222;
+  color: #fd9222;
 }
 // .our-products-section {
 //   background-color: #ffffff;
@@ -54,8 +37,6 @@
   text-align: center;
   gap: 18px;
   flex-wrap: wrap;
-
-
 }
 .cards {
   border: 1px solid #1a111111;
@@ -67,7 +48,6 @@
   flex-direction: column;
   align-items: start;
   text-align: center;
-  
 }
 .cards:hover {
   transition-duration: 0.5s;
@@ -85,7 +65,7 @@
   font-size: 18px;
   line-height: 24px;
   font-weight: 600;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 .item-description {
   margin-top: 0;
@@ -94,13 +74,13 @@
   line-height: 14px;
   font-weight: 400;
   color: B2111111;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 .b-box {
   border-radius: 100px;
   border: solid 1px #1a111111;
   padding: 8px 20px;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 600;
 }
 .b-box:hover {
@@ -124,7 +104,7 @@
   display: inline-block;
   transition: background-color 0.6s ease;
   cursor: pointer;
-   transition: background-color 0.3s ease, opacity 0.3s ease;
+  transition: background-color 0.3s ease, opacity 0.3s ease;
 }
 
 .dot.active {
@@ -146,7 +126,6 @@
 
 .cards:hover {
   transform: scale(1.1);
- 
 }
 
 .our-products-container {
@@ -161,14 +140,7 @@
   }
 
   .cards {
-    width: calc(50% - 10px);
-  }
-
-  .prev-button,
-  .next-button {
-    width: 60px;
-    height: 182px;
-    font-size: 20px;
+    flex-basis: calc(100% / 2 - 30px);
   }
 }
 
@@ -180,12 +152,5 @@
 
   .cards {
     width: calc(100% - 10px);
-  }
-
-  .prev-button,
-  .next-button {
-    width: 40px;
-    height: 122px;
-    font-size: 16px;
   }
 }
