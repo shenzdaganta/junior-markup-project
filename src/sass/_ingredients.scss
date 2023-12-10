@@ -1,43 +1,34 @@
-body{
+body {
     font-family: 'Montserat', sans-serif;
 }
 
-.ingredients{
+.ingredients {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.ingredients {
-    width: 1200px;
-    margin: 0 auto;
-    background-color: #FFF;
-    background-size: cover;
-    margin-top: 50px;
-}
-
-.ing-cont{
+.ing-cont {
     display: flex;
     align-items: center;
     flex-direction: column;
     width: 486px;
     height: 156px;
     gap: 28px;
-    margin-top: 50px;
 }
 
-.ing-main-text{
+.ing-main-text {
     color: #111;
     text-align: center;
     font-family: Montserrat;
     font-size: 24px;
     font-weight: 600;
-    line-height: 28px; 
+    line-height: 28px;
     letter-spacing: -0.72px;
     text-transform: uppercase;
 }
 
-.taste-text{
+.taste-text {
     color: #FD9222;
     font-family: Montserrat;
     font-size: 24px;
@@ -48,17 +39,17 @@ body{
     text-transform: uppercase;
 }
 
-.ing-2nd-text{
+.ing-2nd-text {
     color: #111;
     text-align: center;
     font-family: Montserrat;
     font-size: 14px;
     font-weight: 400;
-    line-height: 18px; 
+    line-height: 18px;
     letter-spacing: -0.28px;
 }
 
-.ing-names{
+.ing-names {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -66,53 +57,53 @@ body{
     gap: 19px;
 }
 
-.ing-style{
+.ing-style {
     display: flex;
     padding: 28px 36px 28px 28px;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
     gap: 36px;
-    border-radius: 15px; 
+    border-radius: 15px;
     list-style: none;
 }
 
-.ing-milk-choco{
-    background: #FD9222; 
+.ing-milk-choco {
+    background: #FD9222;
 }
 
-.ing-nuts{
+.ing-nuts {
     background: #1E1823;
 }
 
 .ing-milk,
-.ing-sweet-choco{
+.ing-sweet-choco {
     border-radius: 15px;
     border: 1px solid #FD9222;
 }
 
-.ing-text-colors-wh{
+.ing-text-colors-wh {
     color: #FFF;
     font-family: Montserrat;
     font-size: 14px;
     font-weight: 600;
-    line-height: 18px; 
+    line-height: 18px;
     letter-spacing: -0.28px;
     text-transform: uppercase;
 }
 
-.ing-text-colors-bl{
+.ing-text-colors-bl {
     color: #111;
     font-family: Montserrat;
     font-size: 14px;
     font-weight: 600;
-    line-height: 18px; 
+    line-height: 18px;
     letter-spacing: -0.28px;
     text-transform: uppercase;
 }
 
 /* VISUALIZATION */
-.ing-visual{
+.ing-visual {
     position: absolute;
     transform: translateY(100%);
     /* transition: transform 0.45s cubic-bezier(0.4, 0, 0.2, 1); */
@@ -141,7 +132,7 @@ body{
     transform: translateY(0);
 }
 
-.ing-vis-h3{
+.ing-vis-h3 {
     color: #1E1823;
     font-family: Montserrat;
     font-size: 18px;
@@ -152,7 +143,7 @@ body{
     padding-left: 20px;
 }
 
-.ing-vis-btn{
+.ing-vis-btn {
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -160,30 +151,30 @@ body{
     padding-left: 20px;
 }
 
-.ing-vis-btn-1{
+.ing-vis-btn-1 {
     color: #FFF;
     font-family: Montserrat;
     font-size: 10px;
     font-weight: 400;
-    line-height: 12px; 
+    line-height: 12px;
     background: #FD9222;
     border-radius: 35px;
     padding: 6px 16px;
 }
 
-.ing-vis-btn-2{
+.ing-vis-btn-2 {
     color: #1E1823;
     font-family: Montserrat;
     font-size: 10px;
     font-weight: 400;
-    line-height: 12px; 
+    line-height: 12px;
     border-radius: 35px;
     padding: 6px 16px;
     border: 1px solid #FD9222;
-    background:#FFF;
+    background: #FFF;
 }
 
-.ing-vis-decription{
+.ing-vis-decription {
     color: #1E1823;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -195,12 +186,11 @@ body{
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 20px;
-    text-align:justify;
-   }
+    text-align: justify;
+}
 
 /* RECIPE */
-
-.ing-recipe-box{
+.ing-recipe-box {
     display: flex;
     width: 516px;
     height: 400px;
@@ -209,46 +199,46 @@ body{
     align-items: center;
 }
 
-.ing-preparing-clip{
+.ing-preparing-clip {
     width: 600px;
     height: 400px;
     border-radius: 15px;
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.40) 0%, rgba(0, 0, 0, 0.40) 100%), lightgray -10.819px -343.839px / 103.473% 236.295% no-repeat;
 }
 
-.ing-recipe{
-    display: flex; 
+.ing-recipe {
+    display: flex;
     justify-content: center;
     flex-direction: column;
-    align-items: center; 
-    width: 516px; 
-    height: 400px; 
-    padding: 32px; 
-    flex-shrink: 0; 
+    align-items: center;
+    width: 516px;
+    height: 400px;
+    padding: 32px;
+    flex-shrink: 0;
 }
 
-.ing-recipe-text-1{
+.ing-recipe-text-1 {
     color: #1E1823;
     font-family: Montserrat;
     font-size: 18px;
     font-weight: 600;
-    line-height: 24px; 
+    line-height: 24px;
 }
 
-.ing-recipe-text-2{
+.ing-recipe-text-2 {
     color: #1E1823;
     font-family: Montserrat;
     font-size: 14px;
     font-weight: 400;
     line-height: 18px;
     letter-spacing: -0.28px;
-    list-style-type:disc;
+    list-style-type: disc;
 }
 
-.ing-recipe p{
-padding-left: 20px;
+.ing-recipe p {
+    padding-left: 20px;
 }
 
-.ing-recipe li{
+.ing-recipe li {
     padding: 10px;
 }
