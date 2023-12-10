@@ -1,18 +1,13 @@
-body {
-  background-color: #ffffff;
-  font-family: 'Montserrat', sans-serif;
-}
-
 .our-product-section {
-  background-color: #fd9222;
+  background-color: #ffffff;
   background-size: cover;
   background-repeat: no repeat;
   width: 1200px;
   margin: 0 auto;
-  height: 1000px;
+  // height: 1000px;
   width: auto;
-  height: 500px;
-  padding-top: 600px;
+  // height: 500px;
+  margin-top: 1200px;
 }
 
 .title {
@@ -29,11 +24,11 @@ body {
   margin-left: 10px;
   color: #fd9222;
 }
-.our-products-section {
-  background-color: #ffffff;
-  width: auto;
-  height: 500px;
-}
+// .our-products-section {
+//   background-color: #ffffff;
+//   width: auto;
+//   height: 500px;
+// }
 .our-products-container {
   display: flex;
   justify-content: center;

@@ -1,0 +1,140 @@
+@media (max-width: 768px) {
+    .ing-main-text {
+        flex-wrap: wrap;
+        text-align: center;
+        padding-left: 0px;
+    }
+
+    .ing-cont p {
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .ing-names {
+        flex-wrap: wrap;
+        width: 845px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-right: 40px;
+    }
+
+    .ing-recipe-box {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 430px) {
+    .ingredients {
+        display: flex;
+        align-items: center;
+        width: 375px;
+    }
+
+    .ing-cont {
+        display: flex;
+        width: 430px;
+        // height: 1376px;
+        flex-direction: column;
+        align-items: center;
+        gap: 32px;
+        flex-shrink: 0;
+    }
+
+    .ing-main-text {
+        width: 283px;
+        height: 72px;
+        flex-shrink: 0;
+        padding-left: 40px;
+    }
+
+    .ing-2nd-text {
+        width: 335px;
+        color: #111;
+        text-align: center;
+        font-family: Montserrat;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 18px;
+        letter-spacing: -0.28px;
+        padding-left: 40px;
+    }
+
+    .ing-names {
+        display: flex;
+        width: 335px;
+        height: 1140px;
+        gap: 20px;
+        align-items: center;
+        padding-right: 0px;
+    }
+
+    .ing-style {
+        width: 335px;
+        align-items: center;
+        display: flex;
+    }
+
+    .ing-made-cont {
+        display: flex;
+        width: 335px;
+        height: 1032px;
+        flex-direction: column;
+        align-items: center;
+        gap: 32px;
+        flex-shrink: 0;
+        margin-top: 140px;
+        /* padding-left: 40px; */
+    }
+
+    .ing-made {
+        padding-bottom: 32px;
+        padding-top: 72px;
+    }
+
+    .ing-main-text {
+        color: #111;
+        text-align: center;
+        font-family: Montserrat;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 24px;
+        letter-spacing: -0.6px;
+        text-transform: uppercase;
+    }
+
+    .taste-text {
+        color: #FD9222;
+        font-family: Montserrat;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 24px;
+        letter-spacing: -0.6px;
+        text-transform: uppercase;
+    }
+
+    .ing-clip {
+        flex-wrap: wrap;
+        width: 335px;
+        height: 500px;
+        display: flex;
+        align-items: center;
+        padding-left: 40px;
+    }
+
+    .ing-recipe {
+        display: flex;
+        padding: 20px 14px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .ing-recipe-text-1 {
+        width: 307px;
+    }
+
+    .ing-recipe-text-2 {
+        width: 335px;
+    }
+}

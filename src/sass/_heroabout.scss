@@ -19,9 +19,10 @@
 }
 
 .hero-main {
-    width: 1200px;
+    width: 100%;
     margin: 0 auto;
     padding-bottom: 0px;
+    margin-bottom: 0px;
 }
 
 .heromain-logo {
@@ -39,8 +40,8 @@
 .hero-container {
     padding-left: 15px;
     padding-right: 15px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 32px;
+
 }
 
 .heromain-iconlogo {
@@ -91,8 +92,6 @@
     border-radius: 25px;
     justify-content: flex-end;
     margin-top: 36px;
-    margin-left: 32px;
-    margin-right: 32px;
     margin-bottom: 40px;
     padding-right: 32px;
 }
@@ -323,7 +322,7 @@
 .heromobile-links a {
     color: #FFF;
     text-decoration: none;
-    display: inline-block;
+    display: block;
     font-size: 14px;
     font-family: Montserrat;
     margin-bottom: 24px;
@@ -573,7 +572,7 @@
         top: 0;
         display: block;
         height: 100vh;
-        width: 290px;
+        width: 100vh;
         position: fixed;
         background-color: #1E1823;
         transition: transform 250ms ease-in-out;
