@@ -4,6 +4,11 @@
     padding-top: 24px;
 }
 
+.hero-desktop {
+    width: 1200px;
+    margin: 0 auto;
+}
+
 .heromain-logocontainer {
     gap: 4px;
     display: flex;
@@ -11,6 +16,13 @@
     align-items: center;
     padding-right: 100px;
     flex-wrap: nowrap;
+}
+
+.hero-main {
+    width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
 }
 
 .heromain-logo {
@@ -76,6 +88,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     height: 100%;
+    width: 100%;
     border-radius: 25px;
     justify-content: flex-end;
     margin-top: 36px;
@@ -247,7 +260,7 @@
 }
 
 .heroabout-icon {
-    padding: 15px;
+    padding: 20px;
     border-radius: 365px;
     border: 1px solid rgba(255, 255, 255, 0.50);
 }
@@ -311,7 +324,7 @@
 .heromobile-links a {
     color: #FFF;
     text-decoration: none;
-    display: inline-block;
+    display: block;
     font-size: 14px;
     font-family: Montserrat;
     margin-bottom: 24px;
@@ -561,7 +574,7 @@
         top: 0;
         display: block;
         height: 100vh;
-        width: 290px;
+        width: 100vh;
         position: fixed;
         background-color: #1E1823;
         transition: transform 250ms ease-in-out;

@@ -8,6 +8,14 @@ body{
     justify-content: center;
 }
 
+.ingredients {
+    width: 1200px;
+    margin: 0 auto;
+    background-color: #FFF;
+    background-size: cover;
+    margin-top: 50px;
+}
+
 .ing-cont{
     display: flex;
     align-items: center;
@@ -15,6 +23,7 @@ body{
     width: 486px;
     height: 156px;
     gap: 28px;
+    margin-top: 50px;
 }
 
 .ing-main-text{

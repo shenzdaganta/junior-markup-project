@@ -1,0 +1,106 @@
+<Section class="top-seller-section">
+    <div class="top-seller">
+        <h2 class="top-seller-text"><span class="topseller-text-top">TOP </span>SELLERS</h2>
+        <div>
+            <ul class="top-seller-list">
+                <li class="top-seller-image">
+                    <img src="./images/img01Chocs.jpg" alt="chocolate Bar">
+                </li>
+                <li class="top-seller-image">
+                    <img src="./images/img02Chocs.jpg" alt="chocolate Bar">
+                </li>
+                <li class="top-seller-image">
+                    <img src="./images/img03Chocs.jpg" alt="chocolate Bar">
+                </li>
+            </ul>
+        </div>
+        <div class="top-seller-lower">
+            <p class="top-seller-lowertext">Crazy enough chocolate originates from a bean just like the coffee bean called Cacao. Cacao has been around for thousands of years and was first discovered by the Native American tribe called the Mayans.</p>
+            <button type="button" class="btn-seller-text" data-modal-open>Buy now</button> 
+               
+            <!-- MODAL -->
+                <div class="top-seller-backdrop is-hidden" data-modal>
+                    <div class="top-seller-modal">
+
+                        <button type="button" class="modal-close-btn" data-modal-close>
+                            <svg width="28" height="28">
+                                <use href="./images/top-seller.svg#close"></use>
+                            </svg>
+                        </button>
+                        <h2 class="ts-buy-now"><span class="ts-buy">BUY</span> NOW</h2>
+
+                <!-- Chocolate list -->
+                        <div class="ts-buynow-list">    
+                            <div class="ts-list">
+                                <button  type="button" class="ts-chocolate">
+                                    <img class="ts-no-background" src="./images/chocolate-white.jpg" alt="Chocolate White"/>
+                                    <span class="ts-chocolate-btn">100&nbsp;g</span> 
+                                </button>
+                            </div>
+                            <div class="ts-list">
+                                <button type="button" class="ts-chocolate">
+                                    <img src="./images/chocolate-bonbon-milk.jpg" alt="Chocolate Milk"/>
+                                    <span class="ts-chocolate-btn">200&nbsp;g</span>
+                                </button>
+                            </div>
+                            <div class="ts-list">
+                                <button type="button" class="ts-chocolate">
+                                    <img src="./images/chocolate-bar-dark.jpg" alt="Chocolate Dark"/>
+                                    <span class="ts-chocolate-btn">300&nbsp;g</span>
+                                </button> 
+                            </div>
+                        </div>
+                <!-- End chocolate list -->
+
+                <!-- Personal Information -->
+                        <form class="ts-form">
+                            <label class="information">
+                                <span class="ts-information-title">Personal Information</span>
+                                <div class="information-list">
+                                    <input type="text" placeholder="Name" class="info-name info-name-break">
+                                    <input type="text" placeholder="Surname" class="info-name infor-name-break">
+                                </div>
+                            </label>
+                            <label class="information">
+                                <span class="ts-information-title">Email</span>
+                                <div class="information-list">
+                                    <input type="email" placeholder="Enter your email" class="info-name">
+                                </div>
+                            </label>
+                            <label class="information">
+                                <span class="ts-information-title">Phone number</span>
+                                <div class="information-list"> 
+                                    <input id="mobile_code" type="tel" placeholder="Phone number" class="info-name">
+                                </div>
+                            </label>
+                            <label class="information">
+                                <span class="ts-information-title">Card number</span>
+                                <div class="information-list">
+                                    <input 
+                                    type="number" 
+                                    placeholder="Enter card" 
+                                    inputmode="numeric"
+                                    pattern="[0-9\s]{13,19}" 
+                                    min="1"
+                                    max="19"
+                                    autocomplete="cc-number"
+                                    class="info-name">
+                                </div>
+                                <svg width="44" height="30" class="ts-mastercard-svg">
+                                    <use href="./images/top-seller.svg#icon-Mastercard"></use>
+                                </svg>
+                            </label>
+                            <label class="information">
+                                <span class="ts-information-title">Comment</span>
+                                <div class="information-list"> 
+                                    <textarea name="comment" id="" placeholder="Enter text" class="info-name ts-comment-box"></textarea>
+                                </div>
+                            </label>
+                        </form>       
+                <!-- End Personal Information -->
+                        <button type="submit" class="ts-submit-btn" data-modal-close>Submit</button>
+                    </div>
+                </div>
+        </div>
+    </div>
+</Section>
