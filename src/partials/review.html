@@ -1,34 +1,40 @@
 <section class="customers-review">
-    <div class="main-reviews">
+    <div class="container swiper mySwiper">
         <h1 class="review-message">
             <span class="chocolate">CHOCOLATE</span>
             <span class="love">IS LOVED</span>
         </h1>
-        <div class="review-grid">
-            <ul class="review-list">
-                <li class="review-card">
+        <div class="review-content swiper-wrapper">
+            <div class="review-list swiper-slide">
+                <div class="review-card">
                     <img src="/src/images/review1.jpg" alt="Victoria Dobrzhanska - Customer's review">
-                    <div class="card">
+                    <div class="review-info">
                         <h3>Victoria Dobrzhanska</h3>
                         <p>I love this chocolate bar. Perfect combination of light crispy wafer, covered in a thin
                             layer chocolate.</p>
                     </div>
-                </li>
-                <li class="review-card"><img src="/src/images/review2.jpg" alt="Nazar Babenko - Customer's review">
-                    <div class="card">
+                </div>
+            </div>
+            <div class="review-list swiper-slide">
+                <div class="review-card">
+                    <img src="/src/images/review2.jpg" alt="Nazar Babenko - Customer's review">
+                    <div class="review-info">
                         <h3>Nazar Babenko</h3>
                         <p>This chocolate confection is a delight! A delight! The wafer is light and crisp, the
-                            hazelnut cream is smooth, and the chocolate is good.</p>
+                            hazelunt cream is smooth, and the chocolate is good.</p>
                     </div>
-                </li>
-                <li class="review-card"><img src="/src/images/review3.jpg" alt="Olena Kampusch - Customer's review">
-                    <div class="card">
+                </div>
+            </div>
+            <div class="review-list swiper-slide">
+                <div class="review-card">
+                    <img src="/src/images/review3.jpg" alt="Olena Kampusch - Customer's review">
+                    <div class="review-info">
                         <h3>Olena Kampusch</h3>
                         <p> Chocolate is a family favourite treat. Love the delicious smooth chocolate and the
                             creaminess inside. The wafer is soft but crunchy.</p>
                     </div>
-                </li>
-            </ul>
+                </div>
+            </div>
         </div>
         <div class="offer-banner">
             <svg class="oblong-banner">
@@ -48,7 +54,7 @@
             <button class="review-btn" data-modal-open>Leave a review</button>
         </div>
         <div class="backdrop is-hidden" data-modal>
-            <div class="cusomers-review-modal">
+            <div class="customers-review-modal">
                 <button type="button" class="modal-close-btn" data-modal-close>
                     <svg class="x-close">
                         <use href="/src/images/review.svg#close"></use>
@@ -59,19 +65,19 @@
                     <span class="chocolate">OUR CHOCOLATE</span>
                 </h2>
                 <form class="customers-review-form">
-                    <input type="text" class="review-input" placeholder="Name" class="review-text">
+                    <input type="text" class="review-input" placeholder="Name">
                 </form>
                 <form class="customers-review-form">
                     <input type="email" class="review-input" placeholder="Email">
                 </form>
-                <form class="customers-review-form"> 
+                <form class="customers-review-form">
                     <div class="input-number">
                         <svg class="flag">
                             <use href="/src/images/review.svg#frame"></use>
                         </svg>
                         <span class="area-code"><b>+380</b></span>
                     </div>
-                        <input type="number" class="review-phone" placeholder="|    Phone number">
+                    <input type="number" class="review-phone" placeholder="|    Phone number">
                 </form>
                 <form class="customers-review-form">
                     <textarea class="text-comment-box" placeholder="Enter text"></textarea>
@@ -79,10 +85,7 @@
                 <button type="submit" class="submit-btn">Send</button>
                 </form>
             </div>
+            <div class="swiper-pagination"></div>
         </div>
     </div>
 </section>
-
-
-
-    
