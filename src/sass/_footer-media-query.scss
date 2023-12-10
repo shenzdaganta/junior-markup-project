@@ -17,33 +17,34 @@
 
 @media (width <= 768px) {
   .footer-wrapper.blocks {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
     row-gap: 32px;
+  }
+  .footer-contact-and-network {
+    gap: 50px;
   }
 }
 
 @media (width <= 768px) {
-  .footer-wrapper.menu {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
-}
-
-@media (width <= 428px) {
   .footer-wrapper.blocks {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    row-gap: 32px;
+    column-gap: 124px;
+
+    @media (width <= 375px) {
+      row-gap: 32px;
+    }
   }
 }
 
-@media (width <= 428px) {
+@media (width <= 768px) {
   .footer-wrapper.menu .footer-menu-list {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    @media (width < 376px) {
+      flex-direction: column;
+    }
   }
 }
