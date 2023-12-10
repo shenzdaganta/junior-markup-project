@@ -15,6 +15,38 @@
   }
 })();
 
+//topseller//
+
+$("#mobile_code").intlTelInput({
+	initialCountry: "in",
+	separateDialCode: true,
+	utilsScript: "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/11.0.4/js/utils.js"
+});
+
+const btnElList = document.querySelectorAll('.ts-chocolate');
+
+btnElList.forEach(btnEl => {
+    btnEl.addEventListener('click', () => {
+        btnEl.classList.toggle('ts-btn');
+    });
+});
+
+(() => {
+    const refs = {
+        openModalBtn: document.querySelector("[data-modal-open]"),
+        closeModalBtn: document.querySelector("[data-modal-close]"),
+        modal: document.querySelector("[data-modal]"),
+    };
+
+    refs.openModalBtn.addEventListener("click", toggleModal);
+    refs.closeModalBtn.addEventListener("click", toggleModal);
+
+    function toggleModal() {
+        refs.modal.classList.toggle("is-hidden");
+    }
+})();
+
+
 // Review modal//
 
 (() => {
@@ -31,6 +63,36 @@
     refs.modal.classList.toggle("is-hidden");
   }
 })();
+
+var swiper = new Swiper(".mySwiper", {
+    slidesPerView: 3,
+    spaceBetween: 20,
+    slidesPerGroup: 1,
+    loop: true,
+    fade:true,
+    centerSlider: true,
+    grabCursor: true,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+      dynamicBullets: true,
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+    breakpoints:{
+      0:{
+         slidesPerView: 1,
+      },
+      768:{
+        slidesPerView: 2,
+      },
+      1200: {
+        slidesPerView: 3,
+      },
+  }
+  });
 
 //Our Products//
 
