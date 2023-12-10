@@ -268,6 +268,10 @@ input[type="number"]::-webkit-outer-spin-button {
     box-shadow: 2.722px 0px 0px 0px rgba(0, 0, 0, 0.10);
 }
 
+.iti__country{
+    display: block;
+}
+
 .ts-mastercard-svg{
     position: relative;
     left: 450px;
@@ -333,6 +337,10 @@ input[type="number"]::-webkit-outer-spin-button {
     @media (max-width: 767px) {
     
     // 767px Down
+        .top-seller-modal{
+            width: 311px;
+        }    
+
         .top-seller-section {
             width: 375px;
         }
@@ -394,10 +402,12 @@ input[type="number"]::-webkit-outer-spin-button {
         }
 
         .ts-buynow-list{
+            width: 100%;
             display: flex;
             align-items: center;
             flex-direction: column;
             gap: 8px;
+            margin: 0 0 40px;
         }
 
         .ts-chocolate{
@@ -408,6 +418,10 @@ input[type="number"]::-webkit-outer-spin-button {
             padding: 8px 16px;
         }
 
+        .ts-list button{
+            width: 253.67px;
+        }
+
         .ts-list img{
             border-radius: 15px;
             margin-bottom: 0;
@@ -415,12 +429,50 @@ input[type="number"]::-webkit-outer-spin-button {
             height: 69px;
         }
 
-        button .ts-chocolate{
-            width: 263px;
-        }
-
-
         .ts-chocolate-btn{
             font-size: 14px;
+            padding: 6px 16px;
+        }
+
+        .information{
+            margin: 0;
+            padding: 0 24px;
+        }
+
+        .information-list{
+            width: 100%;
+            display: block;
+            gap: 14;
+        }
+
+        .information-list input{
+            width: 100%;
+        }
+
+        .info-name{
+            font-size: 14px;
+            letter-spacing: -0.28px;
+            padding: 14px 18px;
+        }
+
+        .inb{
+            margin-bottom: 8px;
+        }
+
+        .iti input, .iti input[type=text], .iti input[type=tel]{
+            width: 255px;
+        }
+
+        .ts-mastercard-svg{
+            left: 200px;
+            bottom: 40px;
+        }
+
+        .information-list .ts-comment-box{
+            padding: 22px 24px 93px;
+        }
+
+        .ts-submit-btn{
+            margin: 18px 0px 32px 24px;
         }
     }
