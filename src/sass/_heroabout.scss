@@ -67,10 +67,18 @@
   padding-right: 137px;
 }
 
+.heronav-link:hover {
+  color: #fd9222;
+}
+
 .hero-social {
   list-style: none;
   display: flex;
   gap: 18px;
+}
+
+.hero-social:hover {
+  fill:#fd9222;
 }
 
 .hero-socialtwitter {
