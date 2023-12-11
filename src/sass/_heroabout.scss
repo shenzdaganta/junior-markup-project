@@ -69,6 +69,7 @@
 
 .heronav-link:hover {
   color: #fd9222;
+  cursor: pointer;
 }
 
 .hero-social {
@@ -79,6 +80,7 @@
 
 .hero-social:hover {
   fill:#fd9222;
+  cursor: pointer;
 }
 
 .hero-socialtwitter {
@@ -87,6 +89,7 @@
 
 .hero-socialtwitter:hover {
   fill:#fd9222;
+  cursor: pointer;
 }
 
 .heromobile-logo {
@@ -227,6 +230,7 @@
 
 .hero-btn3:hover {
   color: #fd9222;
+  cursor: pointer;
 }
 
 .hero-btn3:active {
@@ -237,6 +241,7 @@
   background-color: #fd9222;
   border: 1px solid #fd9222;
   color: #fff;
+  cursor: pointer;
 }
 
 .hero-btnicon:focus {
@@ -351,6 +356,7 @@
 
 .heromobile-links:hover {
   color: #fd9222;
+  cursor: pointer;
 }
 
 .heromobile-links:active {
@@ -360,6 +366,11 @@
 .heromobile-social {
   fill: white;
   padding-right: 18px;
+}
+
+.heromobile-social:hover {
+  fill: #fd9222;
+  cursor: pointer;
 }
 
 .hero-mobilesocial {
@@ -381,6 +392,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
 }
 
 .modal-close-button svg {
@@ -390,6 +402,7 @@
 .modal-close-button:hover {
   fill: #fff;
   border: 1px solid #fff;
+  cursor: pointer;
 }
 
 /*Media Query Start*/
